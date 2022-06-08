@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Game</title>
+    <link rel="stylesheet" href="style.css" id="link" />
+</head>
+<body>
+    <main class="main">
+        <div class="menu" id="menu">
+            <h1> Flappy NecroSlowpoke </h1>
+            <div class="button-menu">
+            <div class="start">
+            <p>Tap Space to move</p>
+            <input type="button" id="btnStart" value="Start" >
+            </div>
+            <div class="sound">
+                <p>Sound On/Off</p>
+                <input type="button" class="btn-sound" id="btnSound" value="On">
+            </div>
+            </div>
+        </div>
+        <div class="result" id="result">
+            <h2 id="text"></h2>
+            <table id="tableScore">
+                <tr>
+                    <th>
+                        Имя
+                    </th>
+                    <th>
+                        Очки
+                    </th>
+
+                </tr>
+            </table>
+        <input id="input" type="text" placeholder="Enter Name">  
+        <input type="button" id="btnRestart" value="Restart" >      
+
+        </div>
+        <div class="canvas">
+        <canvas  id = "canvas" width="448" height="768"></canvas>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer1">©<span>2022</span><a href="https://github.com/Gegcbr9319" class="link">github</a></div>
+       
+       
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

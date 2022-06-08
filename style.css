@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+  }
+  .main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: burlywood;
+    
+}
+.button-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.footer1 span {
+    padding: 10px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: black;
+}
+.result {
+    display: none;
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+
+}
+
+.result input {
+    display: none;
+    height: 20%;
+    width: 100%;
+    
+}
+
+.canvas {
+    display: none;
+    justify-content: center;
+    margin: 0  auto;
+    
+}
+
+#tableScore {
+    display: none;
+
+    width: 100%;
+    border:1px solid black ;
+    font-size: 14px;
+    line-height: 1.2;
+    box-sizing: border-box ;
+    border-spacing: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    
+}
+#tableScore th {
+   
+    border:2px solid pink ;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    line-height: 1.2;
+    padding: 0;
+    border-spacing: 0;
+    
+}
+#tableScore tr {
+    padding: 0;
+    border-spacing: 0;
+}
+#tableScore tbody {
+    padding: 0;    
+    border-spacing: 0;
+}
+#tableScore td {
+    text-align: center;
+    border: 1px solid pink;
+    padding: 0;
+    border-spacing: 0;
+}
+#btnRestart{
+    display: none;
+}
